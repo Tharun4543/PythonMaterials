@@ -11,7 +11,7 @@ Add the item into dict
 2.dict.update({key:value})
 
 Remove the item into dict
---------------------------
+-------------------------
 1.pop() method
   dict.pop(key)
 2.popitem() method
