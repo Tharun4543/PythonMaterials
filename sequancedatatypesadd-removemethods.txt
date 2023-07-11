@@ -1,0 +1,76 @@
+List methods for Add and Remove the elements
+---------------------------------------
+Add methods:-
+-----------
+1.append()
+  listname.append(value)         =>Value will be added at last
+2.insert()
+  listname.insert(index,value)   =>Value will be inserted at specified index
+3.extend()
+  listname.extend(listname2)     =>listname2 items will be added to listname
+
+Remove methods:-
+-----------
+1.remove()
+  listname.remove(value)
+2.pop()
+  listname.pop()                 =>Last item will be deleted
+3.pop()
+  listname.pop(index)            =>Specific index item value will be deleted
+4.del
+  del listname[index)            =>Specific index item value will be deleted
+
+Set methods for removing the elements
+---------------------------------------
+Note:Once you created a set, we cannot change the existing value with new value but we can perform add/remove operations for set
+Add methods:-
+----------------
+1.add()
+ setname.add(value)              =>Value will be inserted at any location in a set
+2.update()             
+  setname1.update(setname2)      =>Setname2 values will be added to setname1
+Remove methods:-
+----------------
+1.remove()
+  setname1.remove(value)         =>If value is present then value be deleted else If the item to remove does not exist, remove() will raise an error.
+2.discard()
+  setname1.discard(value)        =>If value is present then value be deleted else If the item to remove does not exist, discard() will NOT raise an error.
+3.pop()
+  setname1.pop()                 =>Last item will be deleted
+4.clear()
+  setname1.clear()               =>All items will be deleted but set variable will be there
+5.del
+  del setname1                   =>All items will be deleted along with variable
+
+Join methods:-
+----------------
+1.union()
+  setname3=setname1.union(setname2)=>union() method that returns a new set containing all items from both sets
+2.update()
+  setname1.update(setname2)      =>update() method that inserts all the items from one set into another
+
+Note:-Both union() and update() will exclude any duplicate items.
+3.intersection()
+  setname3=setname1.intersection(setname2)=>The intersection() method will return a new set, that only contains the items that are present in both sets.
+4.intersection_update()
+  setname1.intersection_update(setname2)=>The intersection_update() method will keep only the items that are present in both sets.
+5.symmetric_difference()
+  setname3=setname1.symmetric_difference(setname2)=>The symmetric_difference() method will return a new set, that contains only the elements that are NOT present in both sets.
+6.symmetric_difference_update()
+  setname1.symmetric_difference_update(setname2)  => method will keep only the elements that are NOT present in both sets.
+7.difference()
+  setname3=setname2.difference(setname1)              =>The difference() method returns a set that contains the difference between two sets.
+8.difference_update()
+  setname2.difference_update(setname1)                =>Remove the items that exist in both sets
+9.intersection()
+  setname3=setname2.intersection(setname1)            =>The intersection() method returns a set that contains the similarity between two or more sets.
+10.intersection_update()
+   setname2.intersection_update(setname1)             =>method removes the items that is not present in both sets 
+11.isdisjoint()
+   setname2.isdisjoint(setname1)                      =>The isdisjoint() method returns True if none of the items are present in both sets, otherwise it returns False.
+12.issubset()
+   setname2.issubset(setname1)                        =>The issubset() method returns True if all items in the set exists in the specified set, otherwise it returns False.
+13.issuperset()
+   setname2.issuperset(setname1)                      =>The issuperset() method returns True if all items in the specified set exists in the original set, otherwise it returns False.
+   
+

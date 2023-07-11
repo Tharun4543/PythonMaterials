@@ -1,0 +1,56 @@
+random module imp functions
+--------------------------
+1.random()
+  random.random()           =>gives a float number that ranges from 0.0 to 1.0
+2.randint()
+  random.randint(start,end) =>The random.randint() function generates a random integer from the range of numbers supplied.
+3.randrange()
+  random.randrange(start,end,step) =>The random.randrange() function selects an item randomly from the given range defined by the start, the stop, and the step parameters. By default, the start is set to 0. Likewise, the step is set to 1 by default.
+4.choice()
+  random.choice(string or list or tuple) =>The random.choice() function selects an item from a non-empty series at random.
+5.shuffle()
+  random.suffle(list or tuple)           =>The random.shuffle() function shuffles the given list randomly.
+
+statistics module imp functions
+-------------------------------
+1.mean()
+  statistics.mean(listvalues)           =>Gives mean of listed values
+2.median()
+  statistics.median(listvalues)         =>Gives median of listed values
+3.mode()
+  statistics.mode(listvalues)           =>Gives mode of listed values
+4.stdev()
+  statistics.stdev(listvalues)          =>Gives stdev of listed values
+
+math module imp functions
+----------------------------
+1.ceil()
+  math.ceil(8.1)      =>Gives round figure value i.e 9
+2.floor()
+  math.floor(8.7)     =>Gives round figure value i.e 8
+3.factorial()
+  math.factorial(5)   =>Gives factorial value as 120
+4.truncate()
+  math.truncate(5.44) =>Eliminates the decimal values
+5.pow()
+  math.pow(2,3)       =>2*2*2=8 multiples with second value
+6.sqrt()
+  math.sqrt(64)       =>Gives 8
+
+os module imp functions
+-------------------------
+1.name
+  os.name           =>It will give os name
+2.mkdir()
+  os.mkdir("d:\\pythonpdfs") =>It will create a new folder at specified location
+3.getcwd()
+  os.getcwd()                =>Return current working directory
+4.chdir()
+  os.chdir("d:\\")                 =>It will change the directory
+5.rmdir()
+  os.rmdir(directory-name)         =>It will remove the directory
+6.rename()
+  os.rename(location,new name)     =>It will change the name
+
+  
+

@@ -1,0 +1,39 @@
+Dictionary methods in python
+-----------------------------
+Change the specific item 
+--------------------------
+1.dict[key]=new value
+2.dict.update({key:value})
+
+Add the item into dict
+----------------------
+1.dict[key]=value
+2.dict.update({key:value})
+
+Remove the item into dict
+--------------------------
+1.pop() method
+  dict.pop(key)
+2.popitem() method
+  dict.popitem()     =>will remove the last inserted item
+3.del keyword
+  del dict[key]      =>will delete specified key
+  del dict           =>dict variable itself will be deleted
+4.clear() method
+  dict.clear()       =>Data will be removed
+
+#get keys in dict
+------------------
+dict.keys()
+
+#get values in dict
+--------------------
+dict.values()
+
+#get key and values in dict
+----------------------------
+dict.items()
+#Accessing an value for specified key
+-------------------------------------
+ 1.dict[key]
+ 2.dict.get(key)
